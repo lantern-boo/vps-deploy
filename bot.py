@@ -20,8 +20,8 @@ load_dotenv()
 # Configuration from .env
 TOKEN = os.getenv('TOKEN', 'DISCORD_BOT_TOKEN')
 ADMIN_ID = int(os.getenv('ADMIN_ID', 0))  # Admin user ID for checks
-BOT_STATUS_NAME = os.getenv('BOT_STATUS_NAME', 'UnixNodes')
-WATERMARK = os.getenv('WATERMARK', 'Powered by UnixNodes VPS Bot')
+BOT_STATUS_NAME = os.getenv('BOT_STATUS_NAME', 'LC')
+WATERMARK = os.getenv('WATERMARK', 'Powered by LC VPS Bot')
 # VPS Defaults from .env
 DEFAULT_RAM = os.getenv('DEFAULT_RAM', '2g')  # e.g., '2g', '4G'
 DEFAULT_CPU = os.getenv('DEFAULT_CPU', '1')  # Lowered default to '1' to avoid common errors
